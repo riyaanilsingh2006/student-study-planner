@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Student Study Planner</h1>
+
+    <p>Organize your studies and track your progress.</p>
+<h2>Daily Study Goal</h2>
+<h2>Today's Study Hours</h2>
+<h2>Today's Date</h2>
+
+<input type="date" id="dateInput">
+
+<p id="selectedDate">No date selected</p>
+
+<input type="number" id="hoursInput" placeholder="Hours studied">
+
+<button onclick="addStudyHours()">Add Hours</button>
+
+<p id="hoursText">Studied Today: 0 hours</p>
+
+<input type="number" id="goalInput" placeholder="Hours per day">
+
+<button onclick="setGoal()">Set Goal</button>
+
+<p id="goalText">Daily Goal: Not Set</p>
+
+<div>
+    <progress id="studyProgress" value="0" max="100"></progress>
+    <span id="progressText">0%</span>
+</div>
+    <h2>Add Your Study Task</h2>
+    <p id="progress">Progress: 0%</p>
+
+    <select id="subjectInput">
+    <option value="">Select Subject</option>
+    <option value="C++">C++</option>
+    <option value="Java">Java</option>
+    <option value="DBMS">DBMS</option>
+    <option value="Data Structures">Data Structures</option>
+    <option value="English">English</option>
+</select>
+
+<input type="text" id="taskInput" placeholder="Enter your study task">
+
+<button onclick="addTask()">Add Task</button>
+
+    <button>Add Task</button>
+
+    <h2>My Study Tasks</h2>
+
+    <ul id="taskList">
+    </ul>
+
+</body>
+</html>

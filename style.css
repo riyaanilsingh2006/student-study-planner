@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}li {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: white;
+}
